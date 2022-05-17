@@ -44,5 +44,8 @@
     "setupFiles": [
       "jest-localstorage-mock"
     ]
+  },
+  "dependencies": {
+    "jest-localstorage-mock": "^2.4.21"
   }
 }
