@@ -4,9 +4,10 @@
   "description": "In this project, I set up my portfolio repository. My goal here was to build a webpage that uses two API.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
+    "dev": "webpack serve",
     "start": "webpack serve --open",
+    "test": "jest --coverage --verbose",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "eslint-plugin-import": "^2.26.0",
     "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
