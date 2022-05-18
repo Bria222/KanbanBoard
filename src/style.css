@@ -179,3 +179,11 @@ header {
   border: none;
   cursor: pointer;
 }
+
+footer {
+  border-top: 2px solid;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 2rem 0 0 0;
+  font-size: 1.5rem;
+}
