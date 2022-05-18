@@ -44,15 +44,49 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
 }
 
 .link-logo {
   text-decoration: none;
-  color: rgb(52, 49, 49);
-  font-size: 23px;
-  font-weight: bolder;
   border: 1px solid black;
   border-radius: 50%;
   padding: 20px;
+}
+
+.grid-cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 6em;
+  gap: 30px;
+  padding: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem 0;
+  transition: 500ms ease-in;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.show-image {
+  width: 210px;
+  height: 295px;
+}
+
+.card-title {
+  font-family: var(--main-font);
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.movie-title {
+  text-align: center;
+  width: 200px;
 }
