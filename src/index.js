@@ -3,6 +3,7 @@ import getData, { addLikes, likeCount } from './modules/api.js';
 import createCardItem from './modules/createCardItem.js';
 import displayTvShownumbers from './modules/itemsCounter.js';
 import getMovieTitle from './modules/getMovieTitle.js';
+import enableComments from './modules/commentPop.js';
 
 document.addEventListener('click', async (e) => {
   if (e.target.matches('.heart')) {
@@ -28,10 +29,9 @@ const removeLoding = () => {
   document.querySelector('.mask').remove();
 };
 
-const renderItems = async () => {
+const renderItems = async (showCount = 16) => {
   loading();
   const itemsData = await getData();
-  const showCount = 12;
   const showLess = itemsData.slice(0, showCount);
   displayTvShownumbers(showLess);
   removeLoding();
@@ -49,4 +49,14 @@ const renderItems = async () => {
 
 renderItems().then(() => {
   getMovieTitle();
+  enableComments();
 });
+
+// document.querySelector('#no').addEventListener('submit', () => {
+//   document.querySelector('.grid-cards-container').innerHTML = '';
+//   renderItems(document.querySelector('#no').value).then(() => {
+//     getMovieTitle();
+//   }); 
+// });
+
+
