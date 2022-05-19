@@ -1,8 +1,10 @@
 import './style.css';
+import './comment.css';
 import getData, { addLikes, likeCount } from './modules/api.js';
 import createCardItem from './modules/createCardItem.js';
 import displayTvShownumbers from './modules/itemsCounter.js';
 import getMovieTitle from './modules/getMovieTitle.js';
+import enableComments from './modules/CommentPopup.js';
 
 document.addEventListener('click', async (e) => {
   if (e.target.matches('.heart')) {
@@ -49,4 +51,5 @@ const renderItems = async () => {
 
 renderItems().then(() => {
   getMovieTitle();
+  enableComments();
 });
