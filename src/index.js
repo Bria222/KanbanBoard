@@ -36,7 +36,7 @@ const renderItems = async () => {
   displayTvShownumbers(showLess);
   removeLoding();
   const likes = await likeCount();
-  for (let i = 0; i < showLess.length; i += 1) {
+  showLess.forEach((element, i) => {
     let numLikes = 0;
     numLikes = likes.filter((like) => like.item_id === showLess[i].id);
     if (numLikes.length > 0) {
@@ -44,7 +44,7 @@ const renderItems = async () => {
     } else {
       createCardItem(showLess[i], 0);
     }
-  }
+  });
 };
 
 renderItems().then(() => {
