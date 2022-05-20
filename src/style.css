@@ -249,6 +249,7 @@ h2 {
   gap: 25px;
   margin-bottom: 20px;
   margin-left: 130px;
+  align-items: center;
 }
 
 .com-form input,
@@ -273,3 +274,16 @@ h2 {
   padding: 5px;
 }
 
+.com-form h2 {
+  text-align: center;
+  display: contents;
+}
+
+td {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+li {
+  font-size: 1.5rem;
+}
