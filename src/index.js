@@ -51,12 +51,3 @@ renderItems().then(() => {
   getMovieTitle();
   enableComments();
 });
-
-// document.querySelector('#no').addEventListener('submit', () => {
-//   document.querySelector('.grid-cards-container').innerHTML = '';
-//   renderItems(document.querySelector('#no').value).then(() => {
-//     getMovieTitle();
-//   }); 
-// });
-
-
