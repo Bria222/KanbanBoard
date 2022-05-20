@@ -1,5 +1,4 @@
 import './style.css';
-import './comment.css';
 import getData, { addLikes, likeCount } from './modules/api.js';
 import createCardItem from './modules/createCardItem.js';
 import displayTvShownumbers from './modules/itemsCounter.js';
