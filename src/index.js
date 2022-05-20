@@ -5,6 +5,7 @@ import createCardItem from './modules/createCardItem.js';
 import displayTvShownumbers from './modules/itemsCounter.js';
 import getMovieTitle from './modules/getMovieTitle.js';
 import enableComments from './modules/commentPop.js';
+
 document.addEventListener('click', async (e) => {
   if (e.target.matches('.heart')) {
     e.target.classList.toggle('is-active');
