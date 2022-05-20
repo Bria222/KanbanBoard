@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Bria222/KanbanBoard/issues"
   },
-  "homepage": "https://github.com/Bria222/KanbanBoard#readme",
+  "homepage": "https://Bria222.github.io/KanbanBoard",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.5",
     "babel-eslint": "^10.1.0",
@@ -47,6 +47,7 @@
     ]
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "jest-localstorage-mock": "^2.4.21"
   }
 }
