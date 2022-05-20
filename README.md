@@ -3,11 +3,6 @@
 In this project, I set up my portfolio repository. My goal here was to build a webpage that uses two API.
 
 
-
-
-
-
-
 ## :hammer: Built With
 
 - HTML
@@ -23,12 +18,16 @@ To get a local copy up and running follow these simple steps:
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <https://github.com/Bria222/KanbanBoard.github.io>`.
 
+## to test the application
+> npm install --save-dev jest
+> npm test
+
 
 👤 **Brian Nyachae**
 
 - GitHub: [Bria222](https://github.com/Bria222)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/brian-nyachae-b99492232)
-
+- Twitter: [@briannyachae9](https://twitter.com/briannyachae9)
 
 👤 **Victor Damola**
 
