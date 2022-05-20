@@ -22,6 +22,8 @@ To get a local copy up and running follow these simple steps:
 > npm install --save-dev jest
 > npm test
 
+## live demo
+https://www.loom.com/share/d00cfff3370b40d799e1db99d32023dc
 
 👤 **Brian Nyachae**
 
