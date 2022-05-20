@@ -18,7 +18,7 @@ const createCardItem = (item, itemLike = 0) => {
   movieTitle.classList.add('movie-title');
   likeHeart.classList.add('heart');
   likeHeart.id = item.id;
-  commentAndLikeDiv.append(movieTitle, likeHeart, pLikesTag, commentBtn, reserveBtn);
+  commentAndLikeDiv.append(movieTitle, likeHeart, pLikesTag, commentBtn);
   pLikesTag.classList.add('p-like');
   commentAndLikeDiv.classList.add('comment-and-like');
   commentBtn.classList.add('comment-btn');

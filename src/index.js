@@ -1,10 +1,9 @@
 import './style.css';
-import './comment.css';
 import getData, { addLikes, likeCount } from './modules/api.js';
 import createCardItem from './modules/createCardItem.js';
 import displayTvShownumbers from './modules/itemsCounter.js';
 import getMovieTitle from './modules/getMovieTitle.js';
-import enableComments from './modules/CommentPopup.js';
+import enableComments from './modules/commentPop.js';
 
 document.addEventListener('click', async (e) => {
   if (e.target.matches('.heart')) {
@@ -30,10 +29,9 @@ const removeLoding = () => {
   document.querySelector('.mask').remove();
 };
 
-const renderItems = async () => {
+const renderItems = async (showCount = 16) => {
   loading();
   const itemsData = await getData();
-  const showCount = 12;
   const showLess = itemsData.slice(0, showCount);
   displayTvShownumbers(showLess);
   removeLoding();
