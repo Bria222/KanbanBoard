@@ -24,7 +24,6 @@ const createCardItem = (item, itemLike = 0) => {
   commentBtn.classList.add('comment-btn');
   // reserveBtn.classList.add('comment-btn');
   reserveBtn.classList.add('reserve-btn');
-  //
   commentBtn.setAttribute('movie_id', item.id);
   reserveBtn.setAttribute('movie_id', item.id);
   commentBtn.id = item.id;
