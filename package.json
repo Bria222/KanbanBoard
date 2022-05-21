@@ -20,7 +20,8 @@
   "bugs": {
     "url": "https://github.com/Bria222/KanbanBoard/issues"
   },
-  "homepage": "https://Bria222.github.io/KanbanBoard",
+  "homepage": "https://github.com/Bria222/KanbanBoard#readme",
+  "main": "webpack.config.js",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.5",
     "babel-eslint": "^10.1.0",
