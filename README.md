@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 #  JavaScript Capstone Project
-> In this project we built a movie api that displays movies to the user
+> Tv Maze website is a simple app that takes data from API and displays films on the user's screen, he can like, comment and reserve for a movie
 
 # Built With
 
