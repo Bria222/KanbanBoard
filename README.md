@@ -1,39 +1,55 @@
-# Api listing
+#  JavaScript Capstone Project
+> In this project we built a movie api that displays movies to the user
 
-In this project, I set up my portfolio repository. My goal here was to build a webpage that uses two API.
+# Built With
+
+- Html
+- Css
+- Js
+- Git & Gitflow
+- webpack
+- TvMaze api 
 
 
-## :hammer: Built With
 
-- HTML
-- css
-- javascript
-- bootstrap
-- scss
-- linters
+## Getting Started
+To run the above project you need to meet the following requirements:
 
-To get a local copy up and running follow these simple steps:
 
-1. Go to the [repository page](https://github.com/Bria222/KanbanBoard).
-2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <https://github.com/Bria222/KanbanBoard.github.io>`.
+## Prerequisites
+- Have [Vscode](https://code.visualstudio.com/) installed 
+- Have [Git](https://git-scm.com/) installed
+- Node installed
 
-## to test the application
-> npm install --save-dev jest
-> npm test
+## Screenshot of our Project
 
-## live demo
-https://www.loom.com/share/33ad4475aded44c9b2685cadff42ff24
+## Deployment
 
-👤 **Brian Nyachae**
+[link to our project](https://github.com/Bria222/KanbanBoard)
 
+## Run
+> To run the above project :
+> Run the following commands on your terminal of choice
+
+```
+git clone : [https://github.com/Bria222/KanbanBoard]
+
+cd KanbanBoard
+
+ npm install
+ npm run start - to spin up local webpack server
+ npm run build - to build webpack
+```
+  
+
+
+# 🤵 Author 1
 - GitHub: [Bria222](https://github.com/Bria222)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/brian-nyachae-b99492232)
 - Twitter: [@briannyachae9](https://twitter.com/briannyachae9)
-
-👤 **Victor Damola**
-
->- GitHub: [@V0pe](https://github.com/V0pe)
->- Twitter: [@de_vope_](https://twitter.com/de_vope)
->- LinkedIn: [Victor Damola](https://linkedin.com/in/victor-damola-aderibigbe-27931ab0)
-
+#  🤵 Author 2
+- GitHub: [@V0pe](https://github.com/V0pe)
+- Twitter: [@de_vope_](https://twitter.com/de_vope)
+- LinkedIn: [Victor Damola](https://linkedin.com/in/victor-damola-aderibigbe-27931ab0)
+  
+##  Give a ⭐ to show some 🤟
