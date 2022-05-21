@@ -8,7 +8,7 @@
     "dev": "webpack serve",
     "start": "webpack serve --open",
     "test": "jest --coverage --verbose",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
