@@ -42,7 +42,7 @@ cd KanbanBoard
  npm run build - to build webpack
 ```
 ```
-  ## to test the application
+  ## to run tests for the  application run the following commands on terminal of your choice
 > npm install --save-dev jest
 > npm test
 ```
