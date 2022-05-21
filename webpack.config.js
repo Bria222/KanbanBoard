@@ -1,3 +1,4 @@
+/*eslint-disable */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -6,7 +7,7 @@ module.exports = {
   entry: './src/index.js',
   devtool: 'inline-source-map',
   devServer: {
-    static: './dist',
+    static: './docs',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -15,9 +16,9 @@ module.exports = {
   ],
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     clean: true,
-    publicPath: '/Leaderboard/',
+    publicPath: '/KanbanBoard/',
   },
   performance: {
     hints: false,

@@ -8,7 +8,7 @@
     "dev": "webpack serve",
     "start": "webpack serve --open",
     "test": "jest --coverage --verbose",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Bria222/KanbanBoard/issues"
   },
-  "homepage": "https://Bria222.github.io/KanbanBoard/",
+  "homepage": "https://Bria222.github.io/KanbanBoard",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.5",
     "babel-eslint": "^10.1.0",
