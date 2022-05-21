@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple steps:
 > npm test
 
 ## live demo
-https://www.loom.com/share/d00cfff3370b40d799e1db99d32023dc
+https://www.loom.com/share/33ad4475aded44c9b2685cadff42ff24
 
 👤 **Brian Nyachae**
 
