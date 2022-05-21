@@ -41,8 +41,11 @@ cd KanbanBoard
  npm run start - to spin up local webpack server
  npm run build - to build webpack
 ```
-  
-
+```
+  ## to test the application
+> npm install --save-dev jest
+> npm test
+```
 
 # 🤵 Author 1
 - GitHub: [Bria222](https://github.com/Bria222)
