@@ -22,7 +22,9 @@ To run the above project you need to meet the following requirements:
 - Have [Git](https://git-scm.com/) installed
 - Node installed
 
-## Screenshot of our Project
+## Deployment
+
+[link to our project](https://bria222.github.io/KanbanBoard/)
 
 ## Live Demo 
 
