@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 #  JavaScript Capstone Project
 > In this project we built a movie api that displays movies to the user
 
@@ -23,9 +24,9 @@ To run the above project you need to meet the following requirements:
 
 ## Screenshot of our Project
 
-## Deployment
+## Live Demo 
 
-[link to our project](https://github.com/Bria222/KanbanBoard)
+[Live Demo Link](https://www.loom.com/share/33ad4475aded44c9b2685cadff42ff24)
 
 ## Run
 > To run the above project :
